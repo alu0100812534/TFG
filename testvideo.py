@@ -17,7 +17,7 @@ while(cap.isOpened()):
    #    cv2.imshow('frame',frame)
 
 	# detect people in the image
-    (rects, weights) = hog.detectMultiScale(frame, winStride = (4,4), padding = (8,8), scale = 1.05)
+    (rects, weights) = hog.detectMultiScale(frame, winStride = (8,8), padding = (32,32), scale = 1.05)
 
   # draw the original bounding boxes
     for (x,y,w,h) in rects:
