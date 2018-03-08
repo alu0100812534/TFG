@@ -21,10 +21,12 @@ args = vars(ap.parse_args())
 
 # initialize the list of class labels MobileNet SSD was trained to
 # detect, then generate a set of bounding box colors for each class
+
 CLASSES = ["background", "aeroplane", "bicycle", "bird", "boat",
 	"bottle", "bus", "car", "cat", "chair", "cow", "diningtable",
 	"dog", "horse", "motorbike", "person", "pottedplant", "sheep",
 	"sofa", "train", "tvmonitor"]
+
 COLORS = np.random.uniform(0, 255, size=(len(CLASSES), 3))
 
 # load our serialized model from disk
@@ -35,10 +37,10 @@ net = cv2.dnn.readNetFromCaffe(args["prototxt"], args["model"])
 # by resizing to a fixed 300x300 pixels and then normalizing it
 # (note: normalization is done via the authors of the MobileNet SSD
 # implementation)
-cap = cv2.VideoCapture('video_340.mp4')
+cap = cv2.VideoCapture('tlpexample.mp4')
 while(cap.isOpened()):
-	image = cap.read()
-	(h, w) = cap.get(cv2.cv.CV_CAP_PROP_FRAME_HEIGHT), cap.get(cv2.cv.CV_CAP_PROP_FRAME_WIDTH)  # float
+	image = cap.read()[1] #devolvemos la tupla imagenes
+	(h, w) = cap.get(cv2.CAP_PROP_FRAME_HEIGHT), cap.get(cv2.CAP_PROP_FRAME_WIDTH)  # float
 	blob = cv2.dnn.blobFromImage(cv2.resize(image, (300, 300)), 0.007843, (300, 300), 127.5)
 
 	# pass the blob through the network and obtain the detections and
@@ -74,5 +76,6 @@ while(cap.isOpened()):
 
 	# show the output image
 	cv2.imshow("Output", image)
-	cv2.waitKey(0)
+	if cv2.waitKey(2) & 0xFF == ord('q'):
+	   break
 cap.release()

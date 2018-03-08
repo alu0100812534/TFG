@@ -4,7 +4,7 @@ from imutils.object_detection import non_max_suppression
 from imutils import paths
 import imutils
 
-cap = cv2.VideoCapture('video_340.mp4')
+cap = cv2.VideoCapture('tlpexample.mp4')
 
 while(cap.isOpened()):
     ret, frame = cap.read()
