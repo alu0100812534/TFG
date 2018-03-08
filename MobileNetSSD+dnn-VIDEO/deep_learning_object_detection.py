@@ -9,7 +9,7 @@ import cv2
 
 # construct the argument parse and parse the arguments
 ap = argparse.ArgumentParser()
-ap.add_argument("-i", "--image", required=True,
+ap.add_argument("-v", "--video", required=True,
 	help="path to input image")
 ap.add_argument("-p", "--prototxt", required=True,
 	help="path to Caffe 'deploy' prototxt file")
@@ -37,7 +37,7 @@ net = cv2.dnn.readNetFromCaffe(args["prototxt"], args["model"])
 # by resizing to a fixed 300x300 pixels and then normalizing it
 # (note: normalization is done via the authors of the MobileNet SSD
 # implementation)
-cap = cv2.VideoCapture('tlpexample.mp4')
+cap = cv2.VideoCapture(args["video"])
 while(cap.isOpened()):
 	image = cap.read()[1] #devolvemos la tupla imagenes
 	(h, w) = cap.get(cv2.CAP_PROP_FRAME_HEIGHT), cap.get(cv2.CAP_PROP_FRAME_WIDTH)  # float
