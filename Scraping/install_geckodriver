@@ -1,0 +1,5 @@
+#!/bin/bash
+wget https://github.com/mozilla/geckodriver/releases/download/v0.16.0/geckodriver-v0.16.0-linux64.tar.gz
+mkdir geckodriver && tar zxvf geckodriver-v0.16.0-linux64.tar.gz -C geckodriver
+export PATH=$PATH:$PWD/geckodriver
+sudo chmod +x /usr/local/bin/geckodriver

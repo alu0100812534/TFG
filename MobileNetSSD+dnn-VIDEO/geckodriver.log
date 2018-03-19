@@ -1,0 +1,11 @@
+1521458390686	geckodriver	INFO	Listening on 127.0.0.1:49397
+1521458391735	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521458392614	Marionette	INFO	Enabled via --marionette
+1521458395150	Marionette	INFO	Listening on port 42949
+1521458395246	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521458414040	geckodriver	INFO	Listening on 127.0.0.1:57007
+1521458415090	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521458415984	Marionette	INFO	Enabled via --marionette
+1521458418662	Marionette	INFO	Listening on port 42629
+1521458418704	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 15028, Chrome_ChildThread] WARNING: pipe error: Tubería rota: file /build/firefox-NJKMFd/firefox-59.0+build5/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709

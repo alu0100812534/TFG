@@ -7,17 +7,6 @@ import numpy as np
 import argparse
 import cv2
 
-# construct the argument parse and parse the arguments
-ap = argparse.ArgumentParser()
-ap.add_argument("-v", "--video", required=True,
-	help="path to input image")
-ap.add_argument("-p", "--prototxt", required=True,
-	help="path to Caffe 'deploy' prototxt file")
-ap.add_argument("-m", "--model", required=True,
-	help="path to Caffe pre-trained model")
-ap.add_argument("-c", "--confidence", type=float, default=0.2,
-	help="minimum probability to filter weak detections")
-args = vars(ap.parse_args())
 
 # initialize the list of class labels MobileNet SSD was trained to
 # detect, then generate a set of bounding box colors for each class
@@ -31,13 +20,13 @@ COLORS = np.random.uniform(0, 255, size=(len(CLASSES), 3))
 
 # load our serialized model from disk
 print("[INFO] loading model...")
-net = cv2.dnn.readNetFromCaffe(args["prototxt"], args["model"])
+net = cv2.dnn.readNetFromCaffe("MobileNetSSD_deploy.prototxt.txt", "MobileNetSSD_deploy.caffemodel")
 
 # load the input image and construct an input blob for the image
 # by resizing to a fixed 300x300 pixels and then normalizing it
 # (note: normalization is done via the authors of the MobileNet SSD
 # implementation)
-cap = cv2.VideoCapture(args["video"])
+cap = cv2.VideoCapture("tlpexample.mp4")
 while(cap.isOpened()):
 	image = cap.read()[1] #devolvemos la tupla imagenes
 	(h, w) = cap.get(cv2.CAP_PROP_FRAME_HEIGHT), cap.get(cv2.CAP_PROP_FRAME_WIDTH)  # float
@@ -57,7 +46,7 @@ while(cap.isOpened()):
 
 		# filter out weak detections by ensuring the `confidence` is
 		# greater than the minimum confidence
-		if confidence > args["confidence"]:
+		if confidence > 0.80:
 			# extract the index of the class label from the `detections`,
 			# then compute the (x, y)-coordinates of the bounding box for
 			# the object
