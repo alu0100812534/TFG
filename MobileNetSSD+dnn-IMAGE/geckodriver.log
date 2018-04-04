@@ -109,3 +109,982 @@ Sandbox: Unexpected EOF, op 0 flags 0302 path /dev/shm/org.chromium.35M62q
 1521465600710	Marionette	INFO	Enabled via --marionette
 1521465604600	Marionette	INFO	Listening on port 36219
 1521465604622	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521478561318	geckodriver	INFO	Listening on 127.0.0.1:48091
+1521478562394	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521478563126	Marionette	INFO	Enabled via --marionette
+1521478566728	Marionette	INFO	Listening on port 34185
+1521478566808	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521478566858	Marionette	DEBUG	Register listener.js for window 2147483649
+1521478566872	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521478567256	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521478567257	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521478568079	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521478569644	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1521478572264	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+[Child 31053, Chrome_ChildThread] WARNING: pipe error (22): Conexión reinicializada por la máquina remota: file /build/firefox-Kmjk5c/firefox-57.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1521478679839	geckodriver	INFO	Listening on 127.0.0.1:43409
+1521478680901	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521478681505	Marionette	INFO	Enabled via --marionette
+1521478684073	Marionette	INFO	Listening on port 38379
+1521478684218	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521478684272	Marionette	DEBUG	Register listener.js for window 2147483649
+1521478684306	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521478684813	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521478684814	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521478685674	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521478686306	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+[Child 31458, Chrome_ChildThread] WARNING: pipe error (21): Conexión reinicializada por la máquina remota: file /build/firefox-Kmjk5c/firefox-57.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1521478740220	geckodriver	INFO	Listening on 127.0.0.1:45697
+1521478741296	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521478742194	Marionette	INFO	Enabled via --marionette
+1521478744742	Marionette	INFO	Listening on port 42479
+1521478744904	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521478744962	Marionette	DEBUG	Register listener.js for window 2147483649
+1521478744984	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521478745358	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521478745359	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521478746058	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521478746443	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521561960366	geckodriver	INFO	Listening on 127.0.0.1:38367
+1521561961477	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521561962236	Marionette	INFO	Enabled via --marionette
+1521561965258	Marionette	INFO	Listening on port 34765
+1521561965295	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521561965343	Marionette	DEBUG	Register listener.js for window 2147483649
+1521561965443	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521561966022	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521561966022	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521561968266	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521561968759	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521562670530	geckodriver	INFO	Listening on 127.0.0.1:55483
+1521562688266	geckodriver	INFO	Listening on 127.0.0.1:52813
+1521562709465	geckodriver	INFO	Listening on 127.0.0.1:49209
+1521562759130	geckodriver	INFO	Listening on 127.0.0.1:54075
+1521562760189	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521562760754	Marionette	INFO	Enabled via --marionette
+1521562763106	Marionette	INFO	Listening on port 36161
+1521562763278	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521562763331	Marionette	DEBUG	Register listener.js for window 2147483649
+1521562763358	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521562763939	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521562763940	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521562766161	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521562766322	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521563018922	geckodriver	INFO	Listening on 127.0.0.1:55575
+1521563079985	geckodriver	INFO	Listening on 127.0.0.1:56093
+1521563081069	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521563081657	Marionette	INFO	Enabled via --marionette
+1521563084126	Marionette	INFO	Listening on port 35107
+1521563084347	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521563084408	Marionette	DEBUG	Register listener.js for window 2147483649
+1521563084423	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521563085059	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521563085061	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521563087315	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521563088065	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521563309723	geckodriver	INFO	Listening on 127.0.0.1:56441
+1521563310802	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521563311366	Marionette	INFO	Enabled via --marionette
+1521563314019	Marionette	INFO	Listening on port 39429
+1521563314158	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521563314212	Marionette	DEBUG	Register listener.js for window 2147483649
+1521563314229	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521563314856	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521563314856	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521563317405	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521563319221	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+[Parent 11700, Gecko_IOThread] WARNING: pipe error (61): Conexión reinicializada por la máquina remota: file /build/firefox-Kmjk5c/firefox-57.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521563559646	geckodriver	INFO	Listening on 127.0.0.1:51081
+1521563560705	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521563561281	Marionette	INFO	Enabled via --marionette
+1521563564017	Marionette	INFO	Listening on port 42077
+1521563564116	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521563564160	Marionette	DEBUG	Register listener.js for window 2147483649
+1521563564172	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521563564772	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521563564773	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521563565939	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521563566271	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4B0027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+[Child 12043, Chrome_ChildThread] WARNING: pipe error (3): Conexión reinicializada por la máquina remota: file /build/firefox-Kmjk5c/firefox-57.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521563836634	geckodriver	INFO	Listening on 127.0.0.1:45435
+1521563837695	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521563838236	Marionette	INFO	Enabled via --marionette
+1521563840895	Marionette	INFO	Listening on port 42789
+1521563840911	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521563840956	Marionette	DEBUG	Register listener.js for window 2147483649
+1521563840978	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521563841618	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521563841619	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521563845601	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521563846402	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 12301, Gecko_IOThread] WARNING: pipe error (118): Conexión reinicializada por la máquina remota: file /build/firefox-Kmjk5c/firefox-57.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 12301, Gecko_IOThread] WARNING: pipe error (92): Conexión reinicializada por la máquina remota: file /build/firefox-Kmjk5c/firefox-57.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521564139188	geckodriver	INFO	Listening on 127.0.0.1:53923
+1521564140247	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521564140805	Marionette	INFO	Enabled via --marionette
+1521564143201	Marionette	INFO	Listening on port 39439
+1521564143397	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521564143450	Marionette	DEBUG	Register listener.js for window 2147483649
+1521564143477	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521564144043	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521564144044	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521564146314	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521564146606	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+thread '<unnamed>' panicked at 'called `Result::unwrap()` on an `Err` value: Error { repr: Os { code: 32, message: "Broken pipe" } }', /buildslave/rust-buildbot/slave/stable-dist-rustc-musl-linux/build/src/libcore/result.rs:868
+note: Run with `RUST_BACKTRACE=1` for a backtrace.
+1521564174281	geckodriver	INFO	Listening on 127.0.0.1:52695
+1521564175360	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521564175965	Marionette	INFO	Enabled via --marionette
+1521564178765	Marionette	INFO	Listening on port 34989
+1521564178780	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521564178829	Marionette	DEBUG	Register listener.js for window 2147483649
+1521564179028	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521564179824	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521564179825	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521564182251	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521564182414	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521564206539	geckodriver	INFO	Listening on 127.0.0.1:55845
+1521564207620	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521564208238	Marionette	INFO	Enabled via --marionette
+1521564210798	Marionette	INFO	Listening on port 36751
+1521564210972	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521564211028	Marionette	DEBUG	Register listener.js for window 2147483649
+1521564211053	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521564211579	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521564211580	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521564215971	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521564216644	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521564298061	geckodriver	INFO	Listening on 127.0.0.1:36551
+1521564299122	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521564299831	Marionette	INFO	Enabled via --marionette
+1521564302454	Marionette	INFO	Listening on port 43875
+1521564302534	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521564302580	Marionette	DEBUG	Register listener.js for window 2147483649
+1521564302592	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521564303265	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521564303266	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521564305803	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521564307585	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521564373639	geckodriver	INFO	Listening on 127.0.0.1:46321
+1521564374695	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521564375264	Marionette	INFO	Enabled via --marionette
+1521564378049	Marionette	INFO	Listening on port 34483
+1521564378109	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521564378154	Marionette	DEBUG	Register listener.js for window 2147483649
+1521564378169	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521564378793	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521564378794	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521564381390	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521564381897	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 13893, Gecko_IOThread] WARNING: pipe error (121): Conexión reinicializada por la máquina remota: file /build/firefox-Kmjk5c/firefox-57.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521564470784	geckodriver	INFO	Listening on 127.0.0.1:48197
+1521564471840	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521564472414	Marionette	INFO	Enabled via --marionette
+1521564474863	Marionette	INFO	Listening on port 44595
+1521564475014	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521564475067	Marionette	DEBUG	Register listener.js for window 2147483649
+1521564475086	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521564475792	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521564475793	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521564477988	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521564478762	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+JavaScript error: https://s.ytimg.com/yts/jsbin/spf-vflRfjT3b/spf.js, line 17: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://s.ytimg.com/yts/jsbin/spf-vflRfjT3b/spf.js, line 17: NS_ERROR_NOT_INITIALIZED: 
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521564518509	geckodriver	INFO	Listening on 127.0.0.1:33643
+1521564519570	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521564520133	Marionette	INFO	Enabled via --marionette
+1521564522555	Marionette	INFO	Listening on port 44723
+1521564522698	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521564522752	Marionette	DEBUG	Register listener.js for window 2147483649
+1521564522772	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521564523641	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521564523641	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521564526014	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521564526348	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+[Parent 14337, Gecko_IOThread] WARNING: pipe error (122): Conexión reinicializada por la máquina remota: file /build/firefox-Kmjk5c/firefox-57.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521564715963	geckodriver	INFO	Listening on 127.0.0.1:56335
+1521564717043	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521564717632	Marionette	INFO	Enabled via --marionette
+1521564720269	Marionette	INFO	Listening on port 33961
+1521564720395	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521564720446	Marionette	DEBUG	Register listener.js for window 2147483649
+1521564720467	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521564721177	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521564721178	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521564722535	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483649"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521565030040	geckodriver	INFO	Listening on 127.0.0.1:60983
+1521565031099	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521565031687	Marionette	INFO	Enabled via --marionette
+1521565034179	Marionette	INFO	Listening on port 41553
+1521565034371	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521565034425	Marionette	DEBUG	Register listener.js for window 2147483649
+1521565034448	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521565035045	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521565035046	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521565037346	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521565037979	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521565064944	geckodriver	INFO	Listening on 127.0.0.1:47991
+1521565066004	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521565066611	Marionette	INFO	Enabled via --marionette
+1521565069241	Marionette	INFO	Listening on port 43403
+1521565069317	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521565069366	Marionette	DEBUG	Register listener.js for window 2147483649
+1521565069378	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521565069969	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521565069970	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521565072247	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521565072980	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521565090153	Marionette	DEBUG	Register listener.js for window 4294967297
+1521565090186	Marionette	DEBUG	Register listener.js for window 4294967299
+1521565091429	Marionette	DEBUG	Register listener.js for window 4294967303
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521565180287	geckodriver	INFO	Listening on 127.0.0.1:41127
+1521565288820	geckodriver	INFO	Listening on 127.0.0.1:52973
+1521566608145	geckodriver	INFO	Listening on 127.0.0.1:42467
+1521566609226	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521566609812	Marionette	INFO	Enabled via --marionette
+1521566612388	Marionette	INFO	Listening on port 34085
+1521566612520	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521566612571	Marionette	DEBUG	Register listener.js for window 2147483649
+1521566612604	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521566730306	geckodriver	INFO	Listening on 127.0.0.1:50761
+1521566731390	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521567089881	geckodriver	INFO	Listening on 127.0.0.1:34553
+1521567090939	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521567091496	Marionette	INFO	Enabled via --marionette
+1521567094118	Marionette	INFO	Listening on port 40627
+1521567094150	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521567094210	Marionette	DEBUG	Register listener.js for window 2147483649
+1521567094229	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521567095143	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521567095144	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521567097364	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521567100047	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521567184017	geckodriver	INFO	Listening on 127.0.0.1:48719
+1521567185072	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521567185629	Marionette	INFO	Enabled via --marionette
+1521567188265	Marionette	INFO	Listening on port 46501
+1521567188283	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521567188335	Marionette	DEBUG	Register listener.js for window 2147483649
+1521567188353	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521567189093	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521567189094	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521567193625	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521567193629	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+[Parent 16876, Gecko_IOThread] WARNING: pipe error (78): Conexión reinicializada por la máquina remota: file /build/firefox-Kmjk5c/firefox-57.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521567374273	geckodriver	INFO	Listening on 127.0.0.1:56173
+1521567375354	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521567375960	Marionette	INFO	Enabled via --marionette
+1521567378552	Marionette	INFO	Listening on port 37355
+1521567378568	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521567378617	Marionette	DEBUG	Register listener.js for window 2147483649
+1521567378636	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521567379297	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521567379298	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521567386225	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521567386591	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+[Parent 17174, Gecko_IOThread] WARNING: pipe error (123): Conexión reinicializada por la máquina remota: file /build/firefox-Kmjk5c/firefox-57.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 17174, Gecko_IOThread] WARNING: pipe error (49): Conexión reinicializada por la máquina remota: file /build/firefox-Kmjk5c/firefox-57.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521567410342	geckodriver	INFO	Listening on 127.0.0.1:40245
+1521567411398	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521567411953	Marionette	INFO	Enabled via --marionette
+1521567414533	Marionette	INFO	Listening on port 35409
+1521567414682	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521567414734	Marionette	DEBUG	Register listener.js for window 2147483649
+1521567414754	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521567415934	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521567415935	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521567425603	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521567425931	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521567467534	geckodriver	INFO	Listening on 127.0.0.1:37855
+1521567468611	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521567469181	Marionette	INFO	Enabled via --marionette
+1521567471637	Marionette	INFO	Listening on port 45855
+1521567471774	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521567471830	Marionette	DEBUG	Register listener.js for window 2147483649
+1521567471856	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521567474564	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521567474565	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521567478746	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521567481116	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1521567481990	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521567514002	Marionette	DEBUG	Register listener.js for window 2147483666
+1521567514182	Marionette	DEBUG	Register listener.js for window 4294967297
+[Parent 17598, Gecko_IOThread] WARNING: pipe error (142): Conexión reinicializada por la máquina remota: file /build/firefox-Kmjk5c/firefox-57.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 17598, Gecko_IOThread] WARNING: pipe error (63): Conexión reinicializada por la máquina remota: file /build/firefox-Kmjk5c/firefox-57.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 17598, Gecko_IOThread] WARNING: pipe error (92): Conexión reinicializada por la máquina remota: file /build/firefox-Kmjk5c/firefox-57.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1521567611272	geckodriver	INFO	Listening on 127.0.0.1:37245
+1521567675196	geckodriver	INFO	Listening on 127.0.0.1:37849
+1521567702063	geckodriver	INFO	Listening on 127.0.0.1:48977
+1521567707727	geckodriver	INFO	Listening on 127.0.0.1:40921
+1521567708808	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521567709419	Marionette	INFO	Enabled via --marionette
+1521567712026	Marionette	INFO	Listening on port 35125
+1521567712121	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521567712167	Marionette	DEBUG	Register listener.js for window 2147483649
+1521567712178	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521567712959	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521567712959	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521567715489	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521567716089	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521567752728	geckodriver	INFO	Listening on 127.0.0.1:51587
+1521567753811	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521567754412	Marionette	INFO	Enabled via --marionette
+1521567757040	Marionette	INFO	Listening on port 38399
+1521567757250	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521567757307	Marionette	DEBUG	Register listener.js for window 2147483649
+1521567757321	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521567758016	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521567758019	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521567760909	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521567763628	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521568168941	geckodriver	INFO	Listening on 127.0.0.1:53419
+1521568170024	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521568170611	Marionette	INFO	Enabled via --marionette
+1521568173190	Marionette	INFO	Listening on port 35299
+1521568173340	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521568173388	Marionette	DEBUG	Register listener.js for window 2147483649
+1521568173406	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521568173480	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521568173494	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521568173495	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521568173496	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483649"
+1521568173502	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281
+JavaScript error: resource://shield-recipe-client/lib/RecipeRunner.jsm, line 137: TypeError: prefs is undefined
+1521568202144	geckodriver	INFO	Listening on 127.0.0.1:43379
+1521568203201	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521568203773	Marionette	INFO	Enabled via --marionette
+1521568206367	Marionette	INFO	Listening on port 36151
+1521568206525	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521568206577	Marionette	DEBUG	Register listener.js for window 2147483649
+1521568206601	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521568207353	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521568207355	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521568210288	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521568212963	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1521568215266	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521568254740	geckodriver	INFO	Listening on 127.0.0.1:36927
+1521568255821	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521568256496	Marionette	INFO	Enabled via --marionette
+1521568259257	Marionette	INFO	Listening on port 42363
+1521568259336	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521568259386	Marionette	DEBUG	Register listener.js for window 2147483649
+1521568259402	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521568260212	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521568260213	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521568264830	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521568265096	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521568293862	geckodriver	INFO	Listening on 127.0.0.1:40657
+1521568294942	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521568295640	Marionette	INFO	Enabled via --marionette
+1521568298658	Marionette	INFO	Listening on port 43305
+1521568298757	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521568298816	Marionette	DEBUG	Register listener.js for window 2147483649
+1521568298838	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521568301189	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521568301189	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521568304446	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521568307209	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1521568308880	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1521568606990	geckodriver	INFO	Listening on 127.0.0.1:34213
+1521568608051	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521568608609	Marionette	INFO	Enabled via --marionette
+1521568611132	Marionette	INFO	Listening on port 33711
+1521568611298	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521568611352	Marionette	DEBUG	Register listener.js for window 2147483649
+1521568611378	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521568612193	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521568612194	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521568614547	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521568616681	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521568666841	geckodriver	INFO	Listening on 127.0.0.1:50973
+1521568667924	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521568668559	Marionette	INFO	Enabled via --marionette
+1521568671122	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281
+1521568671210	Marionette	INFO	Listening on port 40139
+1521568671242	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521568702383	geckodriver	INFO	Listening on 127.0.0.1:43013
+1521568703465	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521568704082	Marionette	INFO	Enabled via --marionette
+1521568706630	Marionette	INFO	Listening on port 41765
+1521568706757	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521568706817	Marionette	DEBUG	Register listener.js for window 2147483649
+1521568706836	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521568707779	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521568707780	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521568710201	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521568710685	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521568793022	geckodriver	INFO	Listening on 127.0.0.1:56547
+1521568794099	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521568794730	Marionette	INFO	Enabled via --marionette
+1521568797531	Marionette	INFO	Listening on port 43177
+1521568797611	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521568797663	Marionette	DEBUG	Register listener.js for window 2147483649
+1521568797677	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521568798462	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521568798463	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521568800778	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521568803380	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1521568804863	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521568827242	geckodriver	INFO	Listening on 127.0.0.1:35027
+1521568828297	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521568828941	Marionette	INFO	Enabled via --marionette
+1521568832058	Marionette	INFO	Listening on port 38477
+1521568832118	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521568832171	Marionette	DEBUG	Register listener.js for window 2147483649
+1521568832185	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521568832901	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521568832902	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521568835225	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521568837421	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1521568837473	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521568859033	geckodriver	INFO	Listening on 127.0.0.1:51865
+1521568860106	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521568860744	Marionette	INFO	Enabled via --marionette
+1521568863287	Marionette	INFO	Listening on port 38871
+1521568863322	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521568863380	Marionette	DEBUG	Register listener.js for window 2147483649
+1521568863488	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521568864174	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521568864174	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521568867119	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521568867861	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x42000F,name=PHttpChannel::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521568967234	geckodriver	INFO	Listening on 127.0.0.1:47029
+1521568968314	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521568968870	Marionette	INFO	Enabled via --marionette
+1521568971394	Marionette	INFO	Listening on port 33393
+1521568971543	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521568971619	Marionette	DEBUG	Register listener.js for window 2147483649
+1521568971639	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521568972487	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521568972488	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521568974690	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521568977419	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521569926678	geckodriver	INFO	Listening on 127.0.0.1:36333
+1521569927738	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521569928325	Marionette	INFO	Enabled via --marionette
+1521569930984	Marionette	INFO	Listening on port 42073
+1521569931120	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521569931174	Marionette	DEBUG	Register listener.js for window 2147483649
+1521569931205	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521569932038	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521569932039	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521569934202	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521569937179	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1521569937184	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521570080535	geckodriver	INFO	Listening on 127.0.0.1:59311
+1521570081596	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521570082173	Marionette	INFO	Enabled via --marionette
+1521570084576	Marionette	INFO	Listening on port 36251
+1521570084761	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521570084824	Marionette	DEBUG	Register listener.js for window 2147483649
+1521570084846	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521570085638	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521570085638	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521570088117	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521570088810	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x42000F,name=PHttpChannel::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 22215, Gecko_IOThread] WARNING: pipe error (122): Conexión reinicializada por la máquina remota: file /build/firefox-Kmjk5c/firefox-57.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521570262581	geckodriver	INFO	Listening on 127.0.0.1:38515
+1521570263641	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521570264244	Marionette	INFO	Enabled via --marionette
+1521570266776	Marionette	INFO	Listening on port 36699
+1521570266942	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521570267001	Marionette	DEBUG	Register listener.js for window 2147483649
+1521570267024	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521570267813	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521570267814	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521570270012	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521570270672	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 22553, Chrome_ChildThread] WARNING: pipe error (3): Conexión reinicializada por la máquina remota: file /build/firefox-Kmjk5c/firefox-57.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521570366755	geckodriver	INFO	Listening on 127.0.0.1:52987
+1521570367815	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521570368422	Marionette	INFO	Enabled via --marionette
+1521570370995	Marionette	INFO	Listening on port 39453
+1521570371115	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521570371177	Marionette	DEBUG	Register listener.js for window 2147483649
+1521570371213	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521570372075	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521570372075	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521570374539	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521570375201	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521570403739	geckodriver	INFO	Listening on 127.0.0.1:42219
+1521570404800	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521570405375	Marionette	INFO	Enabled via --marionette
+1521570408083	Marionette	INFO	Listening on port 46859
+1521570408120	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521570408176	Marionette	DEBUG	Register listener.js for window 2147483649
+1521570408208	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521570409031	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521570409031	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521570411416	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521570414213	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521570675127	geckodriver	INFO	Listening on 127.0.0.1:59899
+1521570676186	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521570676762	Marionette	INFO	Enabled via --marionette
+1521570679344	Marionette	INFO	Listening on port 34143
+1521570679535	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521570679592	Marionette	DEBUG	Register listener.js for window 2147483649
+1521570679611	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521570680384	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521570680385	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521570682732	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521570683449	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+[Parent 23291, Gecko_IOThread] WARNING: pipe error (90): Conexión reinicializada por la máquina remota: file /build/firefox-Kmjk5c/firefox-57.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521572565444	geckodriver	INFO	Listening on 127.0.0.1:40025
+1521572566503	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521572567072	Marionette	INFO	Enabled via --marionette
+1521572569571	Marionette	INFO	Listening on port 35915
+1521572569721	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521572569779	Marionette	DEBUG	Register listener.js for window 2147483649
+1521572569807	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521572570544	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521572570545	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521572573082	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521572575293	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1521572575297	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+[Parent 24825, Gecko_IOThread] WARNING: pipe error (86): Conexión reinicializada por la máquina remota: file /build/firefox-Kmjk5c/firefox-57.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521572616995	geckodriver	INFO	Listening on 127.0.0.1:33317
+1521572618056	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521572618646	Marionette	INFO	Enabled via --marionette
+1521572621241	Marionette	INFO	Listening on port 40283
+1521572621386	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521572621444	Marionette	DEBUG	Register listener.js for window 2147483649
+1521572621472	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521572622181	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521572622182	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521572624333	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521572624580	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 25106, Chrome_ChildThread] WARNING: pipe error (3): Conexión reinicializada por la máquina remota: file /build/firefox-Kmjk5c/firefox-57.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521671759116	geckodriver	INFO	Listening on 127.0.0.1:48725
+1521671760236	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521671760998	Marionette	INFO	Enabled via --marionette
+1521671763790	Marionette	INFO	Listening on port 34805
+1521671763988	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521671764039	Marionette	DEBUG	Register listener.js for window 2147483649
+1521671764174	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521671764793	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521671764794	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521671766155	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521671767893	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521672389775	geckodriver	INFO	Listening on 127.0.0.1:47361
+1521672390835	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521672391490	Marionette	INFO	Enabled via --marionette
+1521672393780	Marionette	INFO	Listening on port 46055
+1521672393952	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521672394005	Marionette	DEBUG	Register listener.js for window 2147483649
+1521672394025	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521672395035	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521672395036	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521672397855	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521672398041	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x42000F,name=PHttpChannel::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521672424048	geckodriver	INFO	Listening on 127.0.0.1:38191
+1521672425107	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521672425689	Marionette	INFO	Enabled via --marionette
+1521672428387	Marionette	INFO	Listening on port 41113
+1521672428424	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521672428471	Marionette	DEBUG	Register listener.js for window 2147483649
+1521672428484	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521672428989	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521672428990	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521672429847	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521672430155	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521672453766	geckodriver	INFO	Listening on 127.0.0.1:49717
+1521672454848	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521672455373	Marionette	INFO	Enabled via --marionette
+1521672457655	Marionette	INFO	Listening on port 32781
+1521672457981	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521672458035	Marionette	DEBUG	Register listener.js for window 2147483649
+1521672458056	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521672458561	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521672458562	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521672459480	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521672459594	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521672521487	geckodriver	INFO	Listening on 127.0.0.1:51841
+1521672522569	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521672523155	Marionette	INFO	Enabled via --marionette
+1521672525758	Marionette	INFO	Listening on port 44639
+1521672525789	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521672525841	Marionette	DEBUG	Register listener.js for window 2147483649
+1521672525869	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521672526282	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521672526282	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521672527463	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521672528891	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+[Parent 5828, Gecko_IOThread] WARNING: pipe error (120): Conexión reinicializada por la máquina remota: file /build/firefox-Kmjk5c/firefox-57.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 5828, Gecko_IOThread] WARNING: pipe error (87): Conexión reinicializada por la máquina remota: file /build/firefox-Kmjk5c/firefox-57.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1521672533875	Marionette	DEBUG	Register listener.js for window 4294967297
+1521672533909	Marionette	DEBUG	Register listener.js for window 4294967299
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521672623288	geckodriver	INFO	Listening on 127.0.0.1:48551
+1521672624371	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521672624962	Marionette	INFO	Enabled via --marionette
+1521672627664	Marionette	INFO	Listening on port 45861
+1521672627683	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521672627739	Marionette	DEBUG	Register listener.js for window 2147483649
+1521672627761	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521672628281	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521672628282	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521672629420	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521672630071	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521672683843	geckodriver	INFO	Listening on 127.0.0.1:35375
+1521672684925	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521672685544	Marionette	INFO	Enabled via --marionette
+1521672688082	Marionette	INFO	Listening on port 41829
+1521672688136	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521672688186	Marionette	DEBUG	Register listener.js for window 2147483649
+1521672688202	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521672688658	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521672688659	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521672689751	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521672689835	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521672929220	geckodriver	INFO	Listening on 127.0.0.1:37401
+1521672930279	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521672930848	Marionette	INFO	Enabled via --marionette
+1521672933253	Marionette	INFO	Listening on port 42205
+1521672933421	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521672933471	Marionette	DEBUG	Register listener.js for window 2147483649
+1521672933489	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521672934056	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521672934057	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521672934913	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521672935321	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521673478002	geckodriver	INFO	Listening on 127.0.0.1:36061
+1521673479060	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521673479608	Marionette	INFO	Enabled via --marionette
+1521673482255	Marionette	INFO	Listening on port 35183
+1521673482274	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521673482322	Marionette	DEBUG	Register listener.js for window 2147483649
+1521673482337	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521673482882	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521673482883	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521673484017	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521673484702	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521673577473	geckodriver	INFO	Listening on 127.0.0.1:41833
+1521673578531	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521673579098	Marionette	INFO	Enabled via --marionette
+1521673581557	Marionette	INFO	Listening on port 40671
+1521673581741	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521673581796	Marionette	DEBUG	Register listener.js for window 2147483649
+1521673581817	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521673582263	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521673582264	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521673583323	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521673583474	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+[Child 7615, Chrome_ChildThread] WARNING: pipe error (3): Conexión reinicializada por la máquina remota: file /build/firefox-Kmjk5c/firefox-57.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521673897966	geckodriver	INFO	Listening on 127.0.0.1:54427
+1521673899026	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521673899628	Marionette	INFO	Enabled via --marionette
+1521673902120	Marionette	INFO	Listening on port 40109
+1521673902141	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521673902198	Marionette	DEBUG	Register listener.js for window 2147483649
+1521673902220	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521673902704	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521673902705	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521673903876	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521673903884	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+[Child 7946, Chrome_ChildThread] WARNING: pipe error (3): Conexión reinicializada por la máquina remota: file /build/firefox-Kmjk5c/firefox-57.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521737023987	geckodriver	INFO	Listening on 127.0.0.1:39111
+1521737025178	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521737027156	Marionette	INFO	Enabled via --marionette
+1521737031118	Marionette	INFO	Listening on port 42225
+1521737031225	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521737031276	Marionette	DEBUG	Register listener.js for window 2147483649
+1521737031382	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521737031866	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521737031867	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521737033153	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521737033910	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521737130181	geckodriver	INFO	Listening on 127.0.0.1:49957
+1521737131264	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521737131908	Marionette	INFO	Enabled via --marionette
+1521737134534	Marionette	INFO	Listening on port 33787
+1521737134577	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521737134632	Marionette	DEBUG	Register listener.js for window 2147483649
+1521737134655	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521737135013	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521737135014	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521737136016	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521737136024	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521737247615	Marionette	DEBUG	Register listener.js for window 2147483666
+1521737247804	Marionette	DEBUG	Register listener.js for window 4294967297
+1521737257139	Marionette	DEBUG	Register listener.js for window 2147483671
+1521737258675	Marionette	DEBUG	Register listener.js for window 6442450945
+1521737410925	geckodriver	INFO	Listening on 127.0.0.1:48801
+1521737412005	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521737412660	Marionette	INFO	Enabled via --marionette
+1521737414973	Marionette	INFO	Listening on port 44209
+1521737415142	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521737415209	Marionette	DEBUG	Register listener.js for window 2147483649
+1521737415235	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521737415974	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521737415975	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521737416722	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521737417250	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521737507017	geckodriver	INFO	Listening on 127.0.0.1:39889
+1521737508100	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521737508743	Marionette	INFO	Enabled via --marionette
+1521737511414	Marionette	INFO	Listening on port 39361
+1521737511517	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521737511573	Marionette	DEBUG	Register listener.js for window 2147483649
+1521737511592	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521737511974	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521737511975	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521737512733	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521737513457	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521737615486	Marionette	DEBUG	Register listener.js for window 2147483668
+1521737615712	Marionette	DEBUG	Register listener.js for window 4294967297
+1521737768455	Marionette	DEBUG	Register listener.js for window 4294967351
+1521737771949	Marionette	DEBUG	Register listener.js for window 6442450945
+1521738038025	geckodriver	INFO	Listening on 127.0.0.1:33923
+1521738039108	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521738039716	Marionette	INFO	Enabled via --marionette
+1521738042623	Marionette	INFO	Listening on port 42981
+1521738042729	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521738042792	Marionette	DEBUG	Register listener.js for window 2147483649
+1521738042819	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521738043195	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521738043196	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521738043909	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521738044500	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521738062790	geckodriver	INFO	Listening on 127.0.0.1:51789
+1521738063897	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521738064656	Marionette	INFO	Enabled via --marionette
+1521738067019	Marionette	INFO	Listening on port 42023
+1521738067178	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521738067237	Marionette	DEBUG	Register listener.js for window 2147483649
+1521738067272	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521738067647	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521738067651	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521738068677	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521738068725	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521738093277	geckodriver	INFO	Listening on 127.0.0.1:39603
+1521738094395	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521738095104	Marionette	INFO	Enabled via --marionette
+1521738098244	Marionette	INFO	Listening on port 43411
+1521738098310	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521738098367	Marionette	DEBUG	Register listener.js for window 2147483649
+1521738098398	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521738098747	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521738098748	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521738099702	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521738099783	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521738113133	geckodriver	INFO	Listening on 127.0.0.1:48811
+1521738114257	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521738115000	Marionette	INFO	Enabled via --marionette
+1521738118138	Marionette	INFO	Listening on port 44079
+1521738118185	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521738118249	Marionette	DEBUG	Register listener.js for window 2147483649
+1521738118271	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521738118636	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521738118637	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521738119702	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521738119812	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521738137214	geckodriver	INFO	Listening on 127.0.0.1:56941
+1521738138301	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521738139135	Marionette	INFO	Enabled via --marionette
+1521738142000	Marionette	INFO	Listening on port 44565
+1521738142024	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521738142083	Marionette	DEBUG	Register listener.js for window 2147483649
+1521738142107	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521738142510	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521738142510	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521738143852	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521738144073	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+[Parent 5195, Gecko_IOThread] WARNING: pipe error (87): Conexión reinicializada por la máquina remota: file /build/firefox-Kmjk5c/firefox-57.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 5735, Gecko_IOThread] WARNING: pipe error (93): Conexión reinicializada por la máquina remota: file /build/firefox-Kmjk5c/firefox-57.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4B0027,name=PNecko::Msg_RemoveRequestContext) Channel closing: too late to send/recv, messages will be lost
+
+[Child 6389, Chrome_ChildThread] WARNING: pipe error (3): Conexión reinicializada por la máquina remota: file /build/firefox-Kmjk5c/firefox-57.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1521738222975	geckodriver	INFO	Listening on 127.0.0.1:59319
+1521738224074	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521738224689	Marionette	INFO	Enabled via --marionette
+1521738227219	Marionette	INFO	Listening on port 37861
+1521738227374	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521738227431	Marionette	DEBUG	Register listener.js for window 2147483649
+1521738227458	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521738227814	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521738227815	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521738228646	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521738228653	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521738246951	geckodriver	INFO	Listening on 127.0.0.1:37357
+1521738248033	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521738248673	Marionette	INFO	Enabled via --marionette
+1521738251200	Marionette	INFO	Listening on port 34159
+1521738251353	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521738251408	Marionette	DEBUG	Register listener.js for window 2147483649
+1521738251439	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521738251791	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521738251792	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521738252622	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521738252629	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521738282371	geckodriver	INFO	Listening on 127.0.0.1:35649
+1521738283447	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521738284085	Marionette	INFO	Enabled via --marionette
+1521738286522	Marionette	INFO	Listening on port 45967
+1521738286710	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521738286766	Marionette	DEBUG	Register listener.js for window 2147483649
+1521738286792	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521738287425	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521738287425	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521738288783	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521738288791	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521738364582	geckodriver	INFO	Listening on 127.0.0.1:40625
+1521738365653	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521738366339	Marionette	INFO	Enabled via --marionette
+1521738368893	Marionette	INFO	Listening on port 41623
+1521738368971	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521738369028	Marionette	DEBUG	Register listener.js for window 2147483649
+1521738369045	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521738369406	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521738369407	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521738370172	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521738370581	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521738407186	geckodriver	INFO	Listening on 127.0.0.1:42529
+1521738408314	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521738409025	Marionette	INFO	Enabled via --marionette
+1521738411888	Marionette	INFO	Listening on port 44553
+1521738412059	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521738412124	Marionette	DEBUG	Register listener.js for window 2147483649
+1521738412152	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521738412503	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521738412504	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521738413508	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521738413731	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521738487169	geckodriver	INFO	Listening on 127.0.0.1:35009
+1521738488299	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521738489006	Marionette	INFO	Enabled via --marionette
+1521738491737	Marionette	INFO	Listening on port 43829
+1521738491899	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521738492004	Marionette	DEBUG	Register listener.js for window 2147483649
+1521738492026	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521738492409	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521738492410	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521738493432	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521738493794	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+[Parent 8058, Gecko_IOThread] WARNING: pipe error (63): Conexión reinicializada por la máquina remota: file /build/firefox-Kmjk5c/firefox-57.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 8349, Gecko_IOThread] WARNING: pipe error (36): Conexión reinicializada por la máquina remota: file /build/firefox-Kmjk5c/firefox-57.0.1+build2/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1521738638443	geckodriver	INFO	Listening on 127.0.0.1:45057
+1521738639501	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1521738640119	Marionette	INFO	Enabled via --marionette
+1521738642519	Marionette	INFO	Listening on port 35031
+1521738642764	Marionette	WARN	TLS certificate errors will be ignored for this session
+1521738642820	Marionette	DEBUG	Register listener.js for window 2147483649
+1521738642836	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1521738643194	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1521738643195	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1521738643827	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1521738643952	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"

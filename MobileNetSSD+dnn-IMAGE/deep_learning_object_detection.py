@@ -40,13 +40,14 @@ net = cv2.dnn.readNetFromCaffe("MobileNetSSD_deploy.prototxt.txt", "MobileNetSSD
 a = 0;
 while 5<6:
 
-	data = browser.save_screenshot('imgs_tmp/screenie0' + str(a) + '.png')
-	image = cv2.imread('imgs_tmp/screenie0' + str(a) + '.png')
+	data = browser.get_screenshot_as_png()
+	image = Image.open(StringIO.StringIO(data))
 	a += 1
-	# show the output image
-	cv2.imshow("input", image)
-	(h, w) = image.shape[:2]
-	blob = cv2.dnn.blobFromImage(cv2.resize(image, (300, 300)), 0.007843, (300, 300), 127.5)
+	(h, w) = image.size
+	img_data=np.asarray(image)
+
+	img_data = cv2.cvtColor(img_data, cv2.COLOR_RGBA2BGR)
+	blob = cv2.dnn.blobFromImage(cv2.resize(img_data, (300, 300)), 0.007843, (300, 300), 127.5)
 
 	# pass the blob through the network and obtain the detections and
 	# predictions
@@ -73,10 +74,13 @@ while 5<6:
 			# display the prediction
 			label = "{}: {:.2f}%".format(CLASSES[idx], confidence * 100)
 			print("[INFO] {}".format(label))
-			cv2.rectangle(image, (startX, startY), (endX, endY),
+			cv2.rectangle(img_data, (startX, startY), (endX, endY),
 				COLORS[idx], 2)
 			y = startY - 15 if startY - 15 > 15 else startY + 15
-			cv2.putText(image, label, (startX, y),
+			cv2.putText(img_data, label, (startX, y),
 				cv2.FONT_HERSHEY_SIMPLEX, 0.5, COLORS[idx], 2)
+		    # show the output image
+			cv2.imshow("input", img_data)
+			cv2.waitKey(10)
 
 browser.quit()
