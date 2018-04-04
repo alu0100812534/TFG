@@ -12,7 +12,7 @@ from PIL import Image
 import StringIO
 import threading
 
-CONFIDENCE = 0.30
+CONFIDENCE = 0.20
 
 # SELENIUM
 i = 5
@@ -74,15 +74,15 @@ while 5<6:
 			idx = int(detections[0, 0, i, 1])
 			box = detections[0, 0, i, 3:7] * np.array([w, h, w, h])
 			(startX, startY, endX, endY) = box.astype("int")
-
+                        if CLASSES[idx] == "person": 
 			# display the prediction
-			label = "{}: {:.2f}%".format(CLASSES[idx], confidence * 100)
-			print("[INFO] {}".format(label))
-			cv2.rectangle(img_data, (startX, startY), (endX, endY),
-				COLORS[idx], 2)
-			y = startY - 15 if startY - 15 > 15 else startY + 15
-			cv2.putText(img_data, label, (startX, y),
-				cv2.FONT_HERSHEY_SIMPLEX, 0.5, COLORS[idx], 2)
+				label = "{}: {:.2f}%".format(CLASSES[idx], confidence * 100)
+				print("[INFO] {}".format(label))
+				cv2.rectangle(img_data, (startX, startY), (endX, endY),
+					COLORS[idx], 2)
+				y = startY - 15 if startY - 15 > 15 else startY + 15
+				cv2.putText(img_data, label, (startX, y),
+					cv2.FONT_HERSHEY_SIMPLEX, 0.5, COLORS[idx], 2)
 		    # show the output image
 	        cv2.imshow("input", img_data)
 	        cv2.waitKey(10)

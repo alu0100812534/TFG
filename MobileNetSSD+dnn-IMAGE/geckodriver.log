@@ -1459,3 +1459,32 @@ console.error: PushService:
 ###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
 
 [Child 24969, Chrome_ChildThread] WARNING: pipe error (18): Conexión reinicializada por la máquina remota: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1522845469024	geckodriver	INFO	Listening on 127.0.0.1:44461
+1522845470077	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette", "--headless"]
+*** You are running in headless mode.
+1522845470924	Marionette	INFO	Enabled via --marionette
+1522845474230	Marionette	INFO	Listening on port 37755
+1522845474300	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 31863, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1522845563959	geckodriver	INFO	Listening on 127.0.0.1:52783
+1522845564056	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette", "--headless"]
+*** You are running in headless mode.
+1522845565542	Marionette	INFO	Enabled via --marionette
+1522845568002	Marionette	INFO	Listening on port 45167
+1522845568070	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 32245, Chrome_ChildThread] WARNING: pipe error (16): Conexión reinicializada por la máquina remota: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1522845640274	geckodriver	INFO	Listening on 127.0.0.1:52297
+1522845641332	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette", "--headless"]
+*** You are running in headless mode.
+1522845642224	Marionette	INFO	Enabled via --marionette
+1522845644734	Marionette	INFO	Listening on port 39303
+1522845644748	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 32548, Chrome_ChildThread] WARNING: pipe error (16): Conexión reinicializada por la máquina remota: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1522845670641	geckodriver	INFO	Listening on 127.0.0.1:40723
+1522845671694	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette", "--headless"]
+*** You are running in headless mode.
+1522845672592	Marionette	INFO	Enabled via --marionette
+1522845674932	Marionette	INFO	Listening on port 41115
+1522845675008	Marionette	WARN	TLS certificate errors will be ignored for this session
