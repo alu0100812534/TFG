@@ -1088,3 +1088,374 @@ JavaScript error: resource://shield-recipe-client/lib/RecipeRunner.jsm, line 137
 1521738643195	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
 1521738643827	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
 1521738643952	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=qbYxB0O1o4E"
+1522836368972	geckodriver	INFO	Listening on 127.0.0.1:44985
+1522836370082	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1522836371620	Marionette	INFO	Enabled via --marionette
+1522836374694	Marionette	INFO	Listening on port 42047
+1522836374708	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522836762496	geckodriver	INFO	Listening on 127.0.0.1:46251
+1522836762727	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1522836766328	Marionette	INFO	Enabled via --marionette
+1522836771198	Marionette	INFO	Listening on port 34337
+1522836771254	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 32345, MediaPlayback #1] WARNING: Decoder=7fdb826b3020 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - virtual mozilla::MediaResult mozilla::FFmpegVideoDecoder<55>::DoDecode(mozilla::MediaRawData*, uint8_t*, int, bool*, mozilla::MediaDataDecoder::DecodedData&): image allocation error: file /build/firefox-_6vbC4/firefox-59.0.2+build1/dom/media/MediaDecoderStateMachine.cpp, line 3453
+[Child 32345, Chrome_ChildThread] WARNING: pipe error (26): Conexión reinicializada por la máquina remota: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 32345, Chrome_ChildThread] WARNING: pipe error: Tubería rota: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 32345, Chrome_ChildThread] WARNING: pipe error: Tubería rota: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 32345, Chrome_ChildThread] WARNING: pipe error: Tubería rota: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 32345, Chrome_ChildThread] WARNING: pipe error: Tubería rota: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 32345, Chrome_ChildThread] WARNING: pipe error: Tubería rota: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+1522836995405	geckodriver	INFO	Listening on 127.0.0.1:48113
+1522836996612	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1522837010960	Marionette	INFO	Enabled via --marionette
+1522837019228	Marionette	INFO	Listening on port 33409
+1522837019408	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522837275207	geckodriver	INFO	Listening on 127.0.0.1:54785
+1522837275336	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1522837277326	Marionette	INFO	Enabled via --marionette
+1522837280372	Marionette	INFO	Listening on port 34163
+1522837281468	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1522837309252	geckodriver	INFO	Listening on 127.0.0.1:54965
+1522837310303	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1522837311368	Marionette	INFO	Enabled via --marionette
+1522837313938	Marionette	INFO	Listening on port 33991
+1522837314024	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1522837330252	geckodriver	INFO	Listening on 127.0.0.1:38913
+1522837331300	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1522837332178	Marionette	INFO	Enabled via --marionette
+1522837334722	Marionette	INFO	Listening on port 39855
+1522837334838	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 1513, Gecko_IOThread] WARNING: pipe error (136): Conexión reinicializada por la máquina remota: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1522837389644	geckodriver	INFO	Listening on 127.0.0.1:57951
+1522837390693	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1522837391580	Marionette	INFO	Enabled via --marionette
+1522837394240	Marionette	INFO	Listening on port 42951
+1522837394314	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1522838759999	geckodriver	INFO	Listening on 127.0.0.1:59695
+1522838761119	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1522838762886	Marionette	INFO	Enabled via --marionette
+1522838766262	Marionette	INFO	Listening on port 35403
+1522838766338	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522838767766	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:274 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///usr/lib/firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4419 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2279
+console.error: 
+  Message: Error: Connection closed before committing the transaction.
+  Stack:
+    executeTransaction/promise</transactionPromise<@resource://gre/modules/Sqlite.jsm:617:19
+observe@resource://gre/modules/AsyncShutdown.jsm:535:9
+
+JavaScript error: resource://shield-recipe-client/lib/ShieldRecipeClient.jsm, line 70: TypeError: log is undefined
+console.error: PushService: 
+  clearOriginData: Error clearing origin data:
+  UnknownError
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1522839370829	geckodriver	INFO	Listening on 127.0.0.1:60105
+1522839371897	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1522839372746	Marionette	INFO	Enabled via --marionette
+1522839375490	Marionette	INFO	Listening on port 45625
+1522839375510	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 15054, Chrome_ChildThread] WARNING: pipe error (3): Conexión reinicializada por la máquina remota: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1522839497965	geckodriver	INFO	Listening on 127.0.0.1:53731
+1522839498188	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1522839502110	Marionette	INFO	Enabled via --marionette
+1522839508402	Marionette	INFO	Listening on port 46071
+1522839509352	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 15393, Chrome_ChildThread] WARNING: pipe error (22): Conexión reinicializada por la máquina remota: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1522839811721	geckodriver	INFO	Listening on 127.0.0.1:33937
+1522839812776	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette", "--headless"]
+*** You are running in headless mode.
+1522839813606	Marionette	INFO	Enabled via --marionette
+1522839816246	Marionette	INFO	Listening on port 42185
+1522839816292	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 16021, Chrome_ChildThread] WARNING: pipe error (16): Conexión reinicializada por la máquina remota: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1522839870470	geckodriver	INFO	Listening on 127.0.0.1:49409
+1522839870569	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette", "--headless"]
+*** You are running in headless mode.
+1522839872158	Marionette	INFO	Enabled via --marionette
+1522839874816	Marionette	INFO	Listening on port 46021
+1522839874882	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522839927317	geckodriver	INFO	Listening on 127.0.0.1:38397
+1522839927851	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette", "--headless"]
+*** You are running in headless mode.
+1522839933672	Marionette	INFO	Enabled via --marionette
+1522839942322	Marionette	INFO	Listening on port 42961
+1522839942392	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 16581, Chrome_ChildThread] WARNING: pipe error (14): Conexión reinicializada por la máquina remota: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1522839965519	geckodriver	INFO	Listening on 127.0.0.1:40217
+1522839966619	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette", "--headless"]
+*** You are running in headless mode.
+1522839968014	Marionette	INFO	Enabled via --marionette
+1522839970740	Marionette	INFO	Listening on port 35713
+1522839970834	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x2C001F,name=PCont1522840005815	geckodriver	INFO	Listening on 127.0.0.1:45013
+1522840006917	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette", "--headless"]
+*** You are running in headless mode.
+1522840009334	Marionette	INFO	Enabled via --marionette
+1522840011836	Marionette	INFO	Listening on port 43329
+1522840011932	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522840040605	geckodriver	INFO	Listening on 127.0.0.1:36193
+1522840041659	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette", "--headless"]
+*** You are running in headless mode.
+1522840042610	Marionette	INFO	Enabled via --marionette
+1522840045278	Marionette	INFO	Listening on port 39537
+1522840045374	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522840072904	geckodriver	INFO	Listening on 127.0.0.1:44447
+1522840073952	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette", "--headless"]
+*** You are running in headless mode.
+1522840074828	Marionette	INFO	Enabled via --marionette
+1522840077326	Marionette	INFO	Listening on port 44131
+1522840077372	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 17524, Chrome_ChildThread] WARNING: pipe error (18): Conexión reinicializada por la máquina remota: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 17524, Chrome_ChildThread] WARNING: pipe error: Tubería rota: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+1522840199360	geckodriver	INFO	Listening on 127.0.0.1:47613
+1522840200415	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette", "--headless"]
+*** You are running in headless mode.
+1522840202106	Marionette	INFO	Enabled via --marionette
+1522840206264	Marionette	INFO	Listening on port 37609
+1522840206332	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 17985, Chrome_ChildThread] WARNING: pipe error (17): Conexión reinicializada por la máquina remota: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 17985, Chrome_ChildThread] WARNING: pipe error (3): Conexión reinicializada por la máquina remota: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1522840339615	geckodriver	INFO	Listening on 127.0.0.1:39003
+1522840340668	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette", "--headless"]
+*** You are running in headless mode.
+1522840341706	Marionette	INFO	Enabled via --marionette
+1522840344172	Marionette	INFO	Listening on port 41451
+1522840344192	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 18394, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1522840422416	geckodriver	INFO	Listening on 127.0.0.1:36475
+1522840423470	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette", "--headless"]
+*** You are running in headless mode.
+1522840424500	Marionette	INFO	Enabled via --marionette
+1522840427104	Marionette	INFO	Listening on port 46261
+1522840427182	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 18642, Chrome_ChildThread] WARNING: pipe error (16): Conexión reinicializada por la máquina remota: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 18642, Chrome_ChildThread] WARNING: pipe error: Tubería rota: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+1522840594384	geckodriver	INFO	Listening on 127.0.0.1:52479
+1522840595437	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette", "--headless"]
+*** You are running in headless mode.
+1522840596310	Marionette	INFO	Enabled via --marionette
+1522840598730	Marionette	INFO	Listening on port 38527
+1522840598750	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522840615499	geckodriver	INFO	Listening on 127.0.0.1:40847
+1522840616551	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette", "--headless"]
+*** You are running in headless mode.
+1522840617680	Marionette	INFO	Enabled via --marionette
+1522840620298	Marionette	INFO	Listening on port 33963
+1522840620364	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+1522840753626	geckodriver	INFO	Listening on 127.0.0.1:41891
+1522840754679	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette", "--headless"]
+*** You are running in headless mode.
+1522840755586	Marionette	INFO	Enabled via --marionette
+1522840758638	Marionette	INFO	Listening on port 40475
+1522840758698	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 19608, Gecko_IOThread] WARNING: pipe error: Tubería rota: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Parent 19608, Gecko_IOThread] WARNING: pipe error (142): Conexión reinicializada por la máquina remota: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x100037,name=PBackground::Msg_DispatchLocalStorageChange) Channel closing: too late to send/recv, messages will be lost
+
+[Child 19672, Chrome_ChildThread] WARNING: pipe error (16): Conexión reinicializada por la máquina remota: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1522840845522	geckodriver	INFO	Listening on 127.0.0.1:34507
+1522840845899	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette", "--headless"]
+*** You are running in headless mode.
+1522840854870	Marionette	INFO	Enabled via --marionette
+1522840863182	Marionette	INFO	Listening on port 46527
+1522840863266	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 20002, Chrome_ChildThread] WARNING: pipe error (19): Conexión reinicializada por la máquina remota: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 19059, MediaPlayback #1] WARNING: Decoder=7f0872603880 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-_6vbC4/firefox-59.0.2+build1/dom/media/MediaDecoderStateMachine.cpp, line 3453
+[Child 19059, MediaPlayback #4] WARNING: Decoder=7f0872603880 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-_6vbC4/firefox-59.0.2+build1/dom/media/MediaDecoderStateMachine.cpp, line 3453
+[Child 19059, MediaPlayback #4] WARNING: Decoder=7f0872603880 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-_6vbC4/firefox-59.0.2+build1/dom/media/MediaDecoderStateMachine.cpp, line 3453
+[Child 19059, MediaPlayback #3] WARNING: Decoder=7f0872603880 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-_6vbC4/firefox-59.0.2+build1/dom/media/MediaDecoderStateMachine.cpp, line 3453
+1522840960037	geckodriver	INFO	Listening on 127.0.0.1:41099
+1522840961445	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette", "--headless"]
+*** You are running in headless mode.
+[Child 19271, MediaPlayback #1] WARNING: Decoder=7fcf0ab234c0 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-_6vbC4/firefox-59.0.2+build1/dom/media/MediaDecoderStateMachine.cpp, line 3453
+[Child 19271, MediaPlayback #1] WARNING: Decoder=7fcf0ab234c0 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-_6vbC4/firefox-59.0.2+build1/dom/media/MediaDecoderStateMachine.cpp, line 3453
+[Child 19271, MediaPlayback #3] WARNING: Decoder=7fcf0ab234c0 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-_6vbC4/firefox-59.0.2+build1/dom/media/MediaDecoderStateMachine.cpp, line 3453
+[Child 19271, MediaPlayback #3] WARNING: Decoder=7fcf0ab234c0 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-_6vbC4/firefox-59.0.2+build1/dom/media/MediaDecoderStateMachine.cpp, line 3453
+[Child 19271, MediaPlayback #3] WARNING: Decoder=7fcf0ab234c0 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-_6vbC4/firefox-59.0.2+build1/dom/media/MediaDecoderStateMachine.cpp, line 3453
+1522840975902	Marionette	INFO	Enabled via --marionette
+1522840990668	Marionette	INFO	Listening on port 39235
+1522840990740	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 20382, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 20348, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1522840994059	geckodriver	INFO	Listening on 127.0.0.1:39027
+1522840995107	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette", "--headless"]
+*** You are running in headless mode.
+1522840996730	Marionette	INFO	Enabled via --marionette
+1522841004110	Marionette	INFO	Listening on port 45869
+1522841004132	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522841019839	geckodriver	INFO	Listening on 127.0.0.1:55559
+1522841020887	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette", "--headless"]
+*** You are running in headless mode.
+1522841022348	Marionette	INFO	Enabled via --marionette
+1522841031672	Marionette	INFO	Listening on port 42195
+1522841031716	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 20687, Chrome_ChildThread] WARNING: pipe error (16): Conexión reinicializada por la máquina remota: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1522841049796	geckodriver	INFO	Listening on 127.0.0.1:51111
+1522841050850	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette", "--headless"]
+*** You are running in headless mode.
+1522841051788	Marionette	INFO	Enabled via --marionette
+1522841054602	Marionette	INFO	Listening on port 42635
+1522841054690	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 20944, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 20909, Chrome_ChildThread] WARNING: pipe error (16): Conexión reinicializada por la máquina remota: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 20909, MediaPlayback #3] WARNING: Decoder=7f2469eec880 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - virtual mozilla::MediaResult mozilla::FFmpegVideoDecoder<46465650>::DoDecode(mozilla::MediaRawData*, uint8_t*, int, bool*, mozilla::MediaDataDecoder::DecodedData&): image allocation error: file /build/firefox-_6vbC4/firefox-59.0.2+build1/dom/media/MediaDecoderStateMachine.cpp, line 3453
+[Child 20909, Chrome_ChildThread] WARNING: pipe error: Tubería rota: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 20909, Chrome_ChildThread] WARNING: pipe error: Tubería rota: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 20909, Chrome_ChildThread] WARNING: pipe error: Tubería rota: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 20909, Chrome_ChildThread] WARNING: pipe error: Tubería rota: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 20909, Chrome_ChildThread] WARNING: pipe error: Tubería rota: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 20909, Chrome_ChildThread] WARNING: pipe error: Tubería rota: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 20909, Chrome_ChildThread] WARNING: pipe error: Tubería rota: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 20909, Chrome_ChildThread] WARNING: pipe error: Tubería rota: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 20909, Chrome_ChildThread] WARNING: pipe error: Tubería rota: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 20909, Chrome_ChildThread] WARNING: pipe error: Tubería rota: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+1522841103803	geckodriver	INFO	Listening on 127.0.0.1:53091
+1522841103923	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette", "--headless"]
+*** You are running in headless mode.
+1522841106204	Marionette	INFO	Enabled via --marionette
+1522841109038	Marionette	INFO	Listening on port 43657
+1522841109066	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522841135579	geckodriver	INFO	Listening on 127.0.0.1:45779
+1522841136628	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette", "--headless"]
+*** You are running in headless mode.
+1522841137844	Marionette	INFO	Enabled via --marionette
+1522841151068	Marionette	INFO	Listening on port 35571
+1522841152104	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 21487, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 21428, Chrome_ChildThread] WARNING: pipe error (15): Conexión reinicializada por la máquina remota: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 21428, MediaPlayback #2] WARNING: Decoder=7ff4abc89880 Decode error: NS_ERROR_OUT_OF_MEMORY (0x8007000e) - virtual mozilla::MediaResult mozilla::FFmpegVideoDecoder<46465650>::DoDecode(mozilla::MediaRawData*, uint8_t*, int, bool*, mozilla::MediaDataDecoder::DecodedData&): image allocation error: file /build/firefox-_6vbC4/firefox-59.0.2+build1/dom/media/MediaDecoderStateMachine.cpp, line 3453
+1522841246251	geckodriver	INFO	Listening on 127.0.0.1:40735
+1522841246576	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette", "--headless"]
+*** You are running in headless mode.
+1522841250020	Marionette	INFO	Enabled via --marionette
+1522841253582	Marionette	INFO	Listening on port 37301
+1522841253604	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 21785, Chrome_ChildThread] WARNING: pipe error (16): Conexión reinicializada por la máquina remota: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 19059, MediaPlayback #4] WARNING: Decoder=7f08726027a0 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-_6vbC4/firefox-59.0.2+build1/dom/media/MediaDecoderStateMachine.cpp, line 3453
+[Child 19059, MediaPlayback #2] WARNING: Decoder=7f08726027a0 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-_6vbC4/firefox-59.0.2+build1/dom/media/MediaDecoderStateMachine.cpp, line 3453
+[Child 19059, MediaPlayback #3] WARNING: Decoder=7f08726027a0 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-_6vbC4/firefox-59.0.2+build1/dom/media/MediaDecoderStateMachine.cpp, line 3453
+[Child 19059, MediaPlayback #1] WARNING: Decoder=7f08726027a0 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-_6vbC4/firefox-59.0.2+build1/dom/media/MediaDecoderStateMachine.cpp, line 3453
+1522841347577	geckodriver	INFO	Listening on 127.0.0.1:48981
+1522841348631	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette", "--headless"]
+*** You are running in headless mode.
+1522841349562	Marionette	INFO	Enabled via --marionette
+1522841352270	Marionette	INFO	Listening on port 42207
+1522841352346	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 22199, Chrome_ChildThread] WARNING: pipe error: Tubería rota: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 22241, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 19271, MediaPlayback #2] WARNING: Decoder=7fcf15f3ba60 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-_6vbC4/firefox-59.0.2+build1/dom/media/MediaDecoderStateMachine.cpp, line 3453
+[Child 19271, MediaPlayback #2] WARNING: Decoder=7fcf15f3ba60 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-_6vbC4/firefox-59.0.2+build1/dom/media/MediaDecoderStateMachine.cpp, line 3453
+[Child 19271, MediaPlayback #1] WARNING: Decoder=7fcf15f3ba60 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-_6vbC4/firefox-59.0.2+build1/dom/media/MediaDecoderStateMachine.cpp, line 3453
+[Child 19271, MediaPlayback #1] WARNING: Decoder=7fcf15f3ba60 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-_6vbC4/firefox-59.0.2+build1/dom/media/MediaDecoderStateMachine.cpp, line 3453
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+1522841603984	geckodriver	INFO	Listening on 127.0.0.1:57221
+1522841605041	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette", "--headless"]
+*** You are running in headless mode.
+1522841605932	Marionette	INFO	Enabled via --marionette
+1522841608568	Marionette	INFO	Listening on port 37935
+1522841608654	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 22843, Chrome_ChildThread] WARNING: pipe error (3): Conexión reinicializada por la máquina remota: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 22877, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1522841686483	geckodriver	INFO	Listening on 127.0.0.1:39719
+1522841686581	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette", "--headless"]
+*** You are running in headless mode.
+1522841688786	Marionette	INFO	Enabled via --marionette
+1522841691640	Marionette	INFO	Listening on port 37365
+1522841691702	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 19059, MediaPlayback #3] WARNING: Decoder=7f087446e3e0 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-_6vbC4/firefox-59.0.2+build1/dom/media/MediaDecoderStateMachine.cpp, line 3453
+[Child 19059, MediaPlayback #3] WARNING: Decoder=7f087446e3e0 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-_6vbC4/firefox-59.0.2+build1/dom/media/MediaDecoderStateMachine.cpp, line 3453
+[Child 19059, MediaPlayback #4] WARNING: Decoder=7f087446e3e0 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-_6vbC4/firefox-59.0.2+build1/dom/media/MediaDecoderStateMachine.cpp, line 3453
+[Child 19059, MediaPlayback #3] WARNING: Decoder=7f087446e3e0 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-_6vbC4/firefox-59.0.2+build1/dom/media/MediaDecoderStateMachine.cpp, line 3453
+[Child 19059, MediaPlayback #3] WARNING: Decoder=7f087446e3e0 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-_6vbC4/firefox-59.0.2+build1/dom/media/MediaDecoderStateMachine.cpp, line 3453
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 23174, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 23137, Chrome_ChildThread] WARNING: pipe error (3): Conexión reinicializada por la máquina remota: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 19271, MediaPlayback #1] WARNING: Decoder=7fcf18861100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-_6vbC4/firefox-59.0.2+build1/dom/media/MediaDecoderStateMachine.cpp, line 3453
+[Child 19271, MediaPlayback #1] WARNING: Decoder=7fcf18861100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-_6vbC4/firefox-59.0.2+build1/dom/media/MediaDecoderStateMachine.cpp, line 3453
+[Child 19271, MediaPlayback #1] WARNING: Decoder=7fcf18861100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-_6vbC4/firefox-59.0.2+build1/dom/media/MediaDecoderStateMachine.cpp, line 3453
+[Child 19271, MediaPlayback #1] WARNING: Decoder=7fcf18861100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-_6vbC4/firefox-59.0.2+build1/dom/media/MediaDecoderStateMachine.cpp, line 3453
+1522841801324	geckodriver	INFO	Listening on 127.0.0.1:51081
+1522841802453	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette", "--headless"]
+*** You are running in headless mode.
+1522841805322	Marionette	INFO	Enabled via --marionette
+1522841808094	Marionette	INFO	Listening on port 41165
+1522841808270	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 23595, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 23548, Chrome_ChildThread] WARNING: pipe error (18): Conexión reinicializada por la máquina remota: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1522841907539	geckodriver	INFO	Listening on 127.0.0.1:41513
+1522841907662	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette", "--headless"]
+*** You are running in headless mode.
+1522841909486	Marionette	INFO	Enabled via --marionette
+1522841912470	Marionette	INFO	Listening on port 35269
+1522841913032	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 23961, Chrome_ChildThread] WARNING: pipe error (16): Conexión reinicializada por la máquina remota: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1522841965244	geckodriver	INFO	Listening on 127.0.0.1:39491
+1522841965366	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette", "--headless"]
+*** You are running in headless mode.
+1522841970222	Marionette	INFO	Enabled via --marionette
+1522841977216	Marionette	INFO	Listening on port 39821
+1522841977392	Marionette	WARN	TLS certificate errors will be ignored for this session
+1522842039661	geckodriver	INFO	Listening on 127.0.0.1:37185
+1522842039860	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette", "--headless"]
+*** You are running in headless mode.
+[Child 19059, MediaPlayback #1] WARNING: Decoder=7f0873797100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-_6vbC4/firefox-59.0.2+build1/dom/media/MediaDecoderStateMachine.cpp, line 3453
+[Child 19059, MediaPlayback #1] WARNING: Decoder=7f0873797100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-_6vbC4/firefox-59.0.2+build1/dom/media/MediaDecoderStateMachine.cpp, line 3453
+[Child 19059, MediaPlayback #3] WARNING: Decoder=7f0873797100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-_6vbC4/firefox-59.0.2+build1/dom/media/MediaDecoderStateMachine.cpp, line 3453
+[Child 19059, MediaPlayback #1] WARNING: Decoder=7f0873797100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-_6vbC4/firefox-59.0.2+build1/dom/media/MediaDecoderStateMachine.cpp, line 3453
+[Child 19059, MediaPlayback #3] WARNING: Decoder=7f0873797100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-_6vbC4/firefox-59.0.2+build1/dom/media/MediaDecoderStateMachine.cpp, line 3453
+[Child 19059, MediaPlayback #3] WARNING: Decoder=7f0873797100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-_6vbC4/firefox-59.0.2+build1/dom/media/MediaDecoderStateMachine.cpp, line 3453
+1522842044544	Marionette	INFO	Enabled via --marionette
+1522842055842	Marionette	INFO	Listening on port 43431
+1522842055930	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 24723, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 24677, Chrome_ChildThread] WARNING: pipe error (16): Conexión reinicializada por la máquina remota: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1522842090290	geckodriver	INFO	Listening on 127.0.0.1:49397
+1522842091344	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette", "--headless"]
+*** You are running in headless mode.
+1522842093180	Marionette	INFO	Enabled via --marionette
+1522842098670	Marionette	INFO	Listening on port 41159
+1522842098772	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+[Child 24969, Chrome_ChildThread] WARNING: pipe error (18): Conexión reinicializada por la máquina remota: file /build/firefox-_6vbC4/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353

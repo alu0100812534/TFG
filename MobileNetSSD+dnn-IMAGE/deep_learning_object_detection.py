@@ -7,17 +7,21 @@ import numpy as np
 import argparse
 import cv2
 from selenium import webdriver
+from selenium.webdriver.firefox.options import Options
 from PIL import Image
 import StringIO
 import threading
 
-CONFIDENCE = 0.85
+CONFIDENCE = 0.30
 
 # SELENIUM
 i = 5
 a = 0
-browser = webdriver.Firefox()
-browser.get('https://www.youtube.com/watch?v=qbYxB0O1o4E')
+options = Options()
+options.add_argument('--headless')
+print("[INFO] Loading Selenium Firefox webdriver...")
+browser = webdriver.Firefox(firefox_options=options, executable_path="/usr/local/bin/geckodriver/geckodriver")
+browser.get('https://www.youtube.com/watch?v=MFhzqn-nUNE')
 browser.maximize_window()
 #####
 
@@ -43,10 +47,10 @@ while 5<6:
 	data = browser.get_screenshot_as_png()
 	image = Image.open(StringIO.StringIO(data))
 	a += 1
-	(h, w) = image.size
 	img_data=np.asarray(image)
-
 	img_data = cv2.cvtColor(img_data, cv2.COLOR_RGBA2BGR)
+	img_data = img_data[148:600, 36:870]
+	(h, w) = img_data.shape[:2]
 	blob = cv2.dnn.blobFromImage(cv2.resize(img_data, (300, 300)), 0.007843, (300, 300), 127.5)
 
 	# pass the blob through the network and obtain the detections and
@@ -80,7 +84,7 @@ while 5<6:
 			cv2.putText(img_data, label, (startX, y),
 				cv2.FONT_HERSHEY_SIMPLEX, 0.5, COLORS[idx], 2)
 		    # show the output image
-			cv2.imshow("input", img_data)
-			cv2.waitKey(10)
+	        cv2.imshow("input", img_data)
+	        cv2.waitKey(10)
 
 browser.quit()
