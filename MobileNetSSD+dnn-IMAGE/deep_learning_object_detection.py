@@ -20,8 +20,8 @@ a = 0
 options = Options()
 options.add_argument('--headless')
 print("[INFO] Loading Selenium Firefox webdriver...")
-browser = webdriver.Firefox(firefox_options=options, executable_path="/usr/local/bin/geckodriver/geckodriver")
-browser.get('https://www.youtube.com/watch?v=MFhzqn-nUNE')
+browser = webdriver.Firefox(firefox_options=options, executable_path="/usr/local/bin/geckodriver")
+browser.get('https://www.youtube.com/watch?v=XalgyWjBSsk')
 browser.maximize_window()
 #####
 
@@ -74,7 +74,7 @@ while 5<6:
 			idx = int(detections[0, 0, i, 1])
 			box = detections[0, 0, i, 3:7] * np.array([w, h, w, h])
 			(startX, startY, endX, endY) = box.astype("int")
-                        if CLASSES[idx] == "person": 
+                        if CLASSES[idx] == "person":
 			# display the prediction
 				label = "{}: {:.2f}%".format(CLASSES[idx], confidence * 100)
 				print("[INFO] {}".format(label))
