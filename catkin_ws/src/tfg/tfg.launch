@@ -1,0 +1,25 @@
+<launch>
+<node pkg="tfg" type="test_video_resource.py" name="test_video_resource" args="0"
+output="screen">
+ <remap from ="image_ch" to="input_camera" />
+</node>
+<node pkg="tfg" type="Ocam.py" name="Ocam_camara" output="screen" >
+   <remap from ="image_ch" to="input_camera"/>
+   <remap from ="net_topic" to="output_camera"/>
+   <param name ="source" value="0" type="int" />
+</node>
+<node pkg="tfg" type="sele.py" name="selenium" args="0"
+output="screen">
+ <remap from ="image_selenium" to="input_selenium" />
+</node>
+<node pkg="tfg" type="Ocam.py" name="Ocam_selenium" output="screen" >
+   <remap from ="image_ch" to="input_selenium"/>
+   <remap from ="net_topic" to="output_selenium"/>
+   <param name = "source" value="1" type="int"/>
+</node>
+
+<node pkg="web_video_server" type="web_video_server" name="web_video_server"
+output="screen"/>
+<node pkg="tfg" type="server.py" name="server"
+output="screen"/>
+</launch>

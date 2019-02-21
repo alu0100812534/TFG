@@ -1,0 +1,32 @@
+1525038925768	geckodriver	INFO	geckodriver 0.20.1
+1525038925771	geckodriver	INFO	Listening on 127.0.0.1:60874
+1525038926798	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-profile" "/tmp/rust_mozprofile.ayqqCmrkAepY"
+*** You are running in headless mode.
+1525038927634	Marionette	INFO	Enabled via --marionette
+1525038929866	Marionette	INFO	Listening on port 34865
+1525038929904	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][DispatchAsyncMessage] Error: PClientSourceOp::Msg___delete__ Route error: message sent to unknown actor ID
+
+1525039468736	geckodriver	INFO	geckodriver 0.20.1
+1525039468739	geckodriver	INFO	Listening on 127.0.0.1:53825
+1525039469740	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--headless" "-profile" "/tmp/rust_mozprofile.J1eRUx4WigmN"
+*** You are running in headless mode.
+1525039470358	Marionette	INFO	Enabled via --marionette
+1525039472172	Marionette	INFO	Listening on port 45678
+1525039472256	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 30702, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-BgGWsI/firefox-59.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1537482274101	geckodriver	INFO	Listening on 127.0.0.1:62855
+1537482275230	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette", "--headless"]
+*** You are running in headless mode.
+1537482275939	Marionette	INFO	Enabled via --marionette
+1537482279312	Marionette	INFO	Listening on port 21925
+1537482279347	Marionette	WARN	TLS certificate errors will be ignored for this session
+1537482279414	Marionette	DEBUG	Register listener.js for window 2147483649
+1537482279521	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1537482279967	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1537482279968	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1537482281281	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.youtube.com/watch?v=ydZBBAPE_mw"
+1537482281725	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.youtube.com/watch?v=ydZBBAPE_mw"
+[Child 5215, Chrome_ChildThread] WARNING: pipe error (15): Connection reset by peer: file /build/firefox-we42Ie/firefox-57.0.4+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
