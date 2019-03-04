@@ -23,7 +23,8 @@ rospy.init_node('selenium', anonymous=True)
 rate = rospy.Rate(10) # 10hz
 
 browser = webdriver.Firefox(firefox_options=options, executable_path="/home/daniel/catkin_ws/src/tfg/src/selenium/geckodriver")
-browser.get('https://www.youtube.com/watch?v=TgeX-AF7_DE')
+browser.install_addon("/home/daniel/catkin_ws/src/tfg/src/selenium/adblock_plus-3.4.3.xpi", temporary=True) 
+browser.get('https://www.youtube.com/watch?v=TgeX-AF7_DE?version=3&vq=hd720')
 browser.maximize_window()
 
 while(5<6):

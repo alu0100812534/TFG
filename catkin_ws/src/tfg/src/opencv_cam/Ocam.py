@@ -84,19 +84,24 @@ def Cnn(image):
                 cv2.putText(image, label, (startX, y),
                     cv2.FONT_HERSHEY_SIMPLEX, 0.5, COLORS[idx], 2)
 
+
                 if idx == 15 :
                     if ((time.time() * 1000) - lastime) > 5000:
-                        cur.execute("INSERT INTO log (`time`, `message`, `source`) VALUES ('"+time.strftime('%Y-%m-%d %H:%M:%S')+"', 'Ha entrado una persona!', "+str(source)+")")
-                        fourcc = cv2.VideoWriter_fourcc(*'XVID')
-                        out = cv2.VideoWriter('/home/daniel/catkin_ws/src/tfg/record_videos/'+str(datetime.datetime.now())+'.avi',fourcc, 20.0, (w,h))
+                        cur.execute("INSERT INTO log (`time`, `message`, `source`, `type`) VALUES ('"+time.strftime('%Y-%m-%d %H:%M:%S')+"', 'Ha entrado una persona!', "+str(source)+",'0')")
+                        fourcc = cv2.VideoWriter_fourcc(*'MP4V')
+                        out = cv2.VideoWriter('/opt/lampp/htdocs/tfg/record_videos/'+str(time.strftime('%Y-%m-%d %H:%M:%S'))+'.mp4',fourcc, 20.0, (w,h))
                         print out
                     lastime = time.time() * 1000
                     out.write(image)
                     rospy.loginfo('escribiendo imagen...')
 
+                    k = cv2.waitKey(33)
+                    if k == 27:    # Esc key to stop
+                        break
+
 
         if ((time.time() * 1000) - lastime) > 5000  and lastime >= 0 :
-            cur.execute("INSERT INTO log (`time`, `message`, `source`) VALUES ('"+time.strftime('%Y-%m-%d %H:%M:%S')+"', 'Ha salido una persona!', "+str(source)+")")
+            cur.execute("INSERT INTO log (`time`, `message`, `source`, `type`) VALUES ('"+time.strftime('%Y-%m-%d %H:%M:%S')+"', 'Ha salido una persona!', "+str(source)+",'1')")
             lastime = -1
             out.release()
 
