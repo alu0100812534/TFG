@@ -8,7 +8,7 @@ def get_url(url):
     content = response.content.decode("utf8")
     return content
 def callback(message) :
-    get_url('https://api.telegram.org/bot687994977:AAFlBm2BSr1bt6GXIXpQUjmsntaNGC16zr8/sendMessage?chat_id=182585904&text='+message.data+'')
+    get_url('https://api.telegram.org/bot[API_BOT_KEY]/sendMessage?chat_id=[CHAT_ID_KEY]&text='+message.data+'')
 
 rospy.init_node('listener_telegram', anonymous=True)
 rospy.Subscriber("message_output",String, callback)
