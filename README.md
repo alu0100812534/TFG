@@ -9,6 +9,7 @@ Este TFG se centra en el desarrollo de un sistema de detección de personas list
 Este proyecto a sido presentado a día 15-03-2019 en la Sede Electrónica de La Universidad de La Laguna, de caracter público.
 
 Licencia: 
-[rellenar]
+![Licencia](http://i1.wp.com/josefacchin.com/wp-content/uploads/2015/02/Reconocimiento-BY-CC-by.png?resize=800%2C282)
+Esta obra está bajo una licencia de Creative Commons Reconocimiento 4.0 Internacional.
 
 ![TUniversidad La Laguna](https://www.ull.es/portal/noticias/wp-content/uploads/sites/13/2018/04/ull-nuevo-logo.jpg)
