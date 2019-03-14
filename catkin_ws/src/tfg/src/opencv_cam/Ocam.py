@@ -6,7 +6,6 @@ import argparse
 from std_msgs.msg import String
 from sensor_msgs.msg import Image
 from cv_bridge import CvBridge, CvBridgeError
-
 import pymysql
 pymysql.install_as_MySQLdb()
 import MySQLdb
@@ -25,11 +24,11 @@ print("[INFO] loading model...")
 net = cv2.dnn.readNetFromCaffe("/home/daniel/catkin_ws/src/tfg/src/opencv_cam/MobileNetSSD_deploy.prototxt.txt", "/home/daniel/catkin_ws/src/tfg/src/opencv_cam/MobileNetSSD_deploy.caffemodel")
 
  #db
-db = MySQLdb.connect(host="localhost",    # your host, usually localhost
-                      user="root",         # your username
-                      passwd="",  # your password
+db = MySQLdb.connect(host="localhost",
+                      user="root",
+                      passwd="",
                       db="tfg_record",
-                      autocommit=True)        # name of the data base
+                      autocommit=True)
 
 lastime = -1
 out = None
@@ -51,14 +50,14 @@ def Cnn(image):
         global out
         (h, w) = image.shape[:2]
         blob = cv2.dnn.blobFromImage(cv2.resize(image, (300, 300)), 0.007843, (300, 300), 127.5)
-
+        start_time = time.time()
         # ps pass the blob through the network and obtain the detections and
         # predictions
         print("[INFO] computing object detections...")
         net.setInput(blob)
         detections = net.forward()
         pub = rospy.Publisher('net_topic', Image, queue_size=10)
-
+        pub_telegram = rospy.Publisher('message_output', String, queue_size=15)
         # loop over the detections
         for i in np.arange(0, detections.shape[2]):
             # extract the confidence (i.e., probability) associated with the
@@ -72,22 +71,23 @@ def Cnn(image):
                 # then compute the (x, y)-coordinates of the bounding box for
                 # the object
                 idx = int(detections[0, 0, i, 1])
-                box = detections[0, 0, i, 3:7] * np.array([w, h, w, h])
-                (startX, startY, endX, endY) = box.astype("int")
-
-                # display the prediction
-                label = "{}: {:.2f}%".format(CLASSES[idx], confidence * 100)
-                print("[INFO] {}".format(label))
-                cv2.rectangle(image, (startX, startY), (endX, endY),
-                    COLORS[idx], 2)
-                y = startY - 15 if startY - 15 > 15 else startY + 15
-                cv2.putText(image, label, (startX, y),
-                    cv2.FONT_HERSHEY_SIMPLEX, 0.5, COLORS[idx], 2)
-
-
                 if idx == 15 :
+                    box = detections[0, 0, i, 3:7] * np.array([w, h, w, h])
+                    (startX, startY, endX, endY) = box.astype("int")
+                    # display the prediction
+                    label = "{}: {:.2f}%".format(CLASSES[idx], confidence * 100)
+                    print("[INFO] {}".format(label))
+                    cv2.rectangle(image, (startX, startY), (endX, endY),
+                        COLORS[idx], 2)
+                    y = startY - 15 if startY - 15 > 15 else startY + 15
+                    cv2.putText(image, label, (startX, y),
+                        cv2.FONT_HERSHEY_SIMPLEX, 0.5, COLORS[idx], 2)
+
+
+                    print("--- %s seconds ---" % (time.time() - start_time))
                     if ((time.time() * 1000) - lastime) > 5000:
                         cur.execute("INSERT INTO log (`time`, `message`, `source`, `type`) VALUES ('"+time.strftime('%Y-%m-%d %H:%M:%S')+"', 'Ha entrado una persona!', "+str(source)+",'0')")
+                        pub_telegram.publish('Ha entrado una persona!')
                         fourcc = cv2.VideoWriter_fourcc(*'MP4V')
                         out = cv2.VideoWriter('/opt/lampp/htdocs/tfg/record_videos/'+str(time.strftime('%Y-%m-%d %H:%M:%S'))+'.mp4',fourcc, 20.0, (w,h))
                         print out
@@ -102,6 +102,7 @@ def Cnn(image):
 
         if ((time.time() * 1000) - lastime) > 5000  and lastime >= 0 :
             cur.execute("INSERT INTO log (`time`, `message`, `source`, `type`) VALUES ('"+time.strftime('%Y-%m-%d %H:%M:%S')+"', 'Ha salido una persona!', "+str(source)+",'1')")
+            pub_telegram.publish('Ha salido una persona!')
             lastime = -1
             out.release()
 

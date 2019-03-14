@@ -12,6 +12,7 @@ from std_msgs.msg import String
 from sensor_msgs.msg import Image
 from cv_bridge import CvBridge, CvBridgeError
 from PIL import Image as other_img
+import time
 
 options = Options()
 options.add_argument('--headless')
@@ -23,10 +24,12 @@ rospy.init_node('selenium', anonymous=True)
 rate = rospy.Rate(10) # 10hz
 
 browser = webdriver.Firefox(firefox_options=options, executable_path="/home/daniel/catkin_ws/src/tfg/src/selenium/geckodriver")
-browser.install_addon("/home/daniel/catkin_ws/src/tfg/src/selenium/adblock_plus-3.4.3.xpi", temporary=True) 
-browser.get('https://www.youtube.com/watch?v=TgeX-AF7_DE?version=3&vq=hd720')
+browser.install_addon("/home/daniel/catkin_ws/src/tfg/src/selenium/adblock_plus-3.4.3.xpi", temporary=True)
+current_window = browser.current_window_handle
+time.sleep(5)
+browser.get('https://www.youtube.com/watch?v=u68EWmtKZw0&vq=hd1080')
 browser.maximize_window()
-
+browser.switch_to_window(current_window)
 while(5<6):
 	data = browser.get_screenshot_as_png()
 	image = other_img.open(StringIO.StringIO(data))
